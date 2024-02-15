@@ -43,3 +43,62 @@ img {
 .card img {
     border-radius: 1rem;
 }
+
+.card .learning {
+    background-color: var(--yellow);
+    width: min-content;
+    padding: .5rem;
+    margin-top: 1.5rem;
+    font-weight: 800;
+    border-radius: .5rem;
+}
+
+.card .date {
+    margin-top: 1rem;
+}
+
+.card h1 {
+    margin: 1rem;
+}
+
+.card h1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+
+.card h1 a:hover {
+    color: var(--yellow);
+}
+
+.card .description{
+    color: var(--gray);
+    line-height: 1.5;
+}
+
+.card .author {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.card .author img {
+    width: 30px;
+}
+
+.card .author .name {
+    font-weight: 800;
+}
+
+/* Media Query */
+
+@media (max-width:375px) {
+
+    .card a h1 {
+        font-size: 1.25rem;
+    }
+}
