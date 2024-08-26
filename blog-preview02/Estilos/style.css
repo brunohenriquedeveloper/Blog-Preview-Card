@@ -16,3 +16,17 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+    background-color: var(--Yellow);
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
