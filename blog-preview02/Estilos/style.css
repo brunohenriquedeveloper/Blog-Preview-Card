@@ -39,6 +39,10 @@ body {
     border-radius: 10px;
 }
 
+h1, p, h3, h4 {
+    font-family: var(--font-family);
+}
+
 .learn {
     display: flex;
     align-self: flex-start;
@@ -47,4 +51,38 @@ body {
     background-color: var(--Yellow);
     padding: 5px;
     border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.data {
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 25px;
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+p {
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 350px;
+    color: var(--Grey);
+}
+
+.person {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 40px;
 }
