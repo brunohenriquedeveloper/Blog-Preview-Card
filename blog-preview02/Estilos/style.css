@@ -34,7 +34,9 @@ body {
     border-radius: 15px;
     padding-bottom: 25px;
     border-bottom: 15px solid black;
+    border-right: 15px solid black;;
     box-sizing: border-box;
+    
 }
 
 .illustration {
