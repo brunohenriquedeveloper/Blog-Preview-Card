@@ -11,10 +11,25 @@
     --Black: hsl(0, 0%, 7%);
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;}
 
 body {
     display: flex;
